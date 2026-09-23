@@ -6,7 +6,7 @@ The project is designed to provide online citizen services and a police-side adm
 
 ---
 
-## 📌 Project Information
+## Project Information
 
 | Item | Details |
 |---|---|
@@ -24,7 +24,7 @@ The project is designed to provide online citizen services and a police-side adm
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Project Definition](#-project-definition)
@@ -55,7 +55,7 @@ The project is designed to provide online citizen services and a police-side adm
 
 ---
 
-## 🔎 Project Overview
+## Project Overview
 
 The **E-FIR System & Other Services** is a web-based application intended to help citizens and the police department interact through an online portal.
 
@@ -86,23 +86,23 @@ The documented system provides:
 
 ---
 
-## 📝 Project Definition
+## Project Definition
 
-According to the project documentation, the E-FIR System is a web-based application designed to help the **public and police department**.
+The E-FIR System is a web-based application designed to help the **public and police department**.
 
 The system allows a complainant/citizen to submit complaints online and provides a police-side panel for handling cases and performing related administrative work.
 
 ---
 
-## 🏛️ Existing System
+## Existing System
 
-The project documentation describes the earlier process as requiring a person to visit a police station to file a complaint/FIR.
+Itescribes the earlier process as requiring a person to visit a police station to file a complaint/FIR.
 
 The documented system moves this type of interaction toward an online process and brings multiple services together through a web portal.
 
 ---
 
-## 💡 Proposed System
+## Proposed System
 
 The proposed system focuses on:
 
@@ -114,9 +114,7 @@ The proposed system focuses on:
 
 ---
 
-## 🎯 Objectives
-
-The documented project is intended to:
+## Objectives
 
 1. Provide an online interface for citizen complaints/E-FIR services.
 2. Provide a dedicated police/admin panel.
@@ -130,7 +128,7 @@ The documented project is intended to:
 
 ---
 
-# ✨ Main Modules
+# Main Modules
 
 The project is divided into two major sides:
 
@@ -146,9 +144,9 @@ An investigation-officer dashboard is also documented as part of the administrat
 
 ---
 
-# 👮 Police/Admin Portal
+# Police/Admin Portal
 
-The documentation demonstrates a **Gujarat Police Login Portal** for administrative users.
+This project demonstrates a **Gujarat Police Login Portal** for administrative users.
 
 ## Admin Login
 
@@ -157,8 +155,6 @@ The login page includes:
 - Username
 - Password
 - Category
-
-The documentation demonstrates validation for:
 
 - Empty username/password
 - Password entered while username is empty
@@ -169,7 +165,7 @@ The documentation demonstrates validation for:
 
 ---
 
-## 📊 Police Station Officer Dashboard
+## Police Station Officer Dashboard
 
 The Police Station Officer dashboard provides access to administrative functions.
 
@@ -186,9 +182,9 @@ The system provides lists for:
 
 ---
 
-## 📋 Pending FIR List
+## Pending FIR List
 
-The documentation demonstrates a list of complaints/FIRs containing information such as:
+It demonstrates a list of complaints/FIRs containing information such as:
 
 - Reference number
 - Applicant name
@@ -202,11 +198,9 @@ The documentation demonstrates a list of complaints/FIRs containing information 
 
 ---
 
-## 🔍 FIR Details
+## FIR Details
 
 The system provides a facility to view the full details of a specific FIR.
-
-The documentation demonstrates FIR information including:
 
 - FIR/reference number
 - Date of occurrence
@@ -214,11 +208,9 @@ The documentation demonstrates FIR information including:
 
 ---
 
-## ⚙️ Action Taken on FIR
+## Action Taken on FIR
 
 Police/admin users can take action on a specific FIR.
-
-The documented interface includes information such as:
 
 - Search/details of the FIR
 - Approximate price/value where applicable
@@ -230,19 +222,17 @@ After successful processing, the system displays an acknowledgement:
 
 ---
 
-## 👮 Investigation Officer Assignment
+## Investigation Officer Assignment
 
-The documentation demonstrates a list of FIRs assigned to an investigation officer.
+Officer get a list of FIRs assigned to an investigation officer.
 
 This supports the administrative workflow for forwarding cases for investigation.
 
 ---
 
-## ❌ Rejected FIRs
+## Rejected FIRs
 
 The system provides a dedicated list of rejected FIRs.
-
-The documented list includes fields such as:
 
 - Reference number
 - Applicant name
@@ -254,13 +244,13 @@ The documented list includes fields such as:
 
 ---
 
-## ✅ Approved FIRs
+## Approved FIRs
 
 The system also provides a list of approved FIRs with complaint/application information and status-related details.
 
 ---
 
-## 📄 E-Applications
+## E-Applications
 
 The admin side provides a list of E-Applications.
 
@@ -268,13 +258,13 @@ This allows administrative users to view/manage applications submitted through t
 
 ---
 
-## 👤 Missing Person Reports
+## Missing Person Reports
 
 The admin portal includes a **Report - Missing Person** section for managing missing-person reports.
 
 ---
 
-## 👴 Senior Citizen Registration
+## Senior Citizen Registration
 
 The admin portal includes records for **Senior Citizen Registration**.
 
@@ -282,17 +272,17 @@ The documentation demonstrates a records screen containing applicant information
 
 ---
 
-# 🕵️ Investigation Officer Portal
+# Investigation Officer
 
-The documentation includes a separate **Investigation Officer** dashboard.
+The project includes an **Investigation Officer** section as part of the police-side system.
 
-The dashboard provides an administrative interface for investigation-related work and assigned cases.
+The documentation contains a separate **Investigation Officer dashboard** screen. This section is included for investigation-related activities within the system.
 
-The documented screen identifies the role as an Investigation Officer and includes dashboard/service navigation.
+The Investigation Officer interface is shown separately from the Police Station Officer dashboard in the project documentation.
 
 ---
 
-# 👤 Citizen/User Portal
+# Citizen/User Portal
 
 The citizen side is presented as a:
 
@@ -304,7 +294,7 @@ The citizen portal provides access to public-facing services and information.
 
 ---
 
-# 🔐 Authentication
+# Authentication
 
 ## User Registration
 
@@ -338,7 +328,7 @@ The documented interface provides a **Recover Your Password** function.
 
 ---
 
-# 🚨 E-FIR Services
+# E-FIR Services
 
 The E-FIR module is one of the central services of the application.
 
@@ -353,7 +343,7 @@ The exact fields and validation rules for individual E-FIR forms should be under
 
 ---
 
-# 📝 Other Citizen Services
+# Other Citizen Services
 
 The citizen portal provides multiple services in addition to E-FIR.
 
@@ -371,73 +361,65 @@ Certificate-related services are also presented.
 
 ---
 
-## 📰 News and Announcements
+## News and Announcements
 
 The citizen portal includes a **News & Announcement** section.
 
-The documentation demonstrates a page for displaying notices/announcements and also shows a state where there is no new notice.
+The system includes a **Notices** section.
 
 ---
 
-## 🖼️ Photo Gallery
+## Photo Gallery
 
 The portal provides a **Photo Gallery** section for public-facing images/content.
 
 ---
 
-## 🏛️ Know Home Department
+## Know Home Department
 
 The system includes information about the Home Department.
 
-The documentation demonstrates Home Department information pages containing department-related information and contact details.
+The project includes **Home Department** pages containing department information and contact details.
 
 ---
 
-## 👮 Absconder List
+## Absconder List
 
 The citizen/public side includes an **Absconder List** section.
 
 ---
 
-## 🔎 Lookout Notice
+## Lookout Notice
 
 The portal includes a **Lookout Notice** section containing public-facing information.
 
 ---
 
-## ☎️ Contact Details
+## Contact Details
 
 A contact section is provided with helpline/contact information.
 
 ---
 
-## ℹ️ Information for Public
+## Information for Public
 
 The application provides public information pages.
 
-The documentation includes several public-information sections containing government/police-related information, announcements, images and service information.
-
+The project includes sections containing government and police-related information, announcements, images, and service information.
 ---
 
-## 🏛️ Government Services
+## Government Services
 
-The documentation includes a page for searching Gujarat Government Services and displaying popular services.
-
+The project includes a page for searching **Gujarat Government Services** and viewing popular services.
 ---
 
-## 🆕 What's New
+## What's New
 
 A **What's New** section is included for displaying new information or updates.
 
 ---
 
-## 🖼️ Public Photo/Information Sections
-
-The public portal documentation also demonstrates information pages and a photo-gallery-related section associated with government/police initiatives.
-
----
-
-# 💬 Feedback
+# Feedback
 
 The application includes a feedback facility.
 
@@ -450,11 +432,9 @@ This allows users to provide feedback about the portal/services.
 
 ---
 
-# ❓ FAQ
+#  FAQ
 
 The citizen portal includes a **Frequently Asked Questions** section.
-
-The documentation shows FAQs related to topics such as:
 
 - Password-related questions
 - Checking the status of requested applications
@@ -462,7 +442,7 @@ The documentation shows FAQs related to topics such as:
 
 ---
 
-# 📜 Terms and Conditions
+# Terms and Conditions
 
 The project includes a **Terms and Condition** page for the citizen portal.
 
@@ -470,19 +450,17 @@ This provides a dedicated location for the portal's terms and conditions.
 
 ---
 
-# 🔒 Privacy Policy
+# Privacy Policy
 
 A **Privacy Policy** page is included.
 
-The documentation discusses privacy-related information associated with citizen-portal applications and information submitted through the system.
+The project includes privacy-related information for citizen-portal applications and information submitted through the system.
 
-The project documentation also includes copyright/trademark and permission-related information on the privacy page.
+The privacy page also contains copyright, trademark, and permission-related information.
 
 ---
 
-# 🛠️ Technology Stack
-
-The project documentation specifies the following technologies and tools.
+# Technology Stack
 
 | Category | Technology / Tool |
 |---|---|
@@ -500,9 +478,7 @@ The project documentation specifies the following technologies and tools.
 
 ---
 
-# 🔄 System Workflow
-
-A simplified workflow based on the documented screens is:
+# System Workflow
 
 ```text
 Citizen
@@ -546,35 +522,13 @@ Citizen
 
 ---
 
-# 🗂️ Project Structure
-
-The actual repository structure should be kept synchronized with the source code.
-
-A typical structure for this project can be documented using the files/folders present in the repository, for example:
-
-```text
-FIR_project1/
-│
-├── E-FIR / FIR related pages
-├── Login / Registration pages
-├── Admin / Police pages
-├── User / Citizen pages
-├── Form and service pages
-├── JavaScript files
-├── CSS files
-├── Images / Gallery assets
-├── Document upload folders
-├── Database configuration
-└── README.md
-```
-
 > **Note:** The exact folder/file names should be taken from the current repository because the supplied project documentation describes the application through its screens rather than providing a source-code directory tree.
 
 ---
 
-# 💻 Local Development
+# Local Development
 
-The project documentation identifies **XAMPP** as one of the tools used for development.
+**XAMPP** is used as a development tool for the project.
 
 For a local PHP/MySQL environment, the project can be placed under the XAMPP web directory, for example:
 
@@ -597,13 +551,11 @@ http://localhost/
 
 or the appropriate project path configured in your XAMPP installation.
 
-> The supplied project documentation does not specify an exact database-import filename, database name, or complete installation command sequence. Those values should therefore be taken from the actual project files/configuration rather than assumed here.
-
 ---
 
-# 🗄️ Database
+# Database
 
-The documented database technology is:
+The database technology is:
 
 **MySQL 8.1.6**
 
@@ -613,7 +565,7 @@ The application uses a database configuration file in the project, such as:
 DBconfig.php
 ```
 
-### ⚠️ Important
+### Important
 
 Do not publish real database passwords, API keys, or other secrets to a public GitHub repository.
 
@@ -621,9 +573,7 @@ For development, keep sensitive credentials outside the public repository and pr
 
 ---
 
-# 📊 Reporting
-
-The documentation specifies:
+# Reporting
 
 **PHP Report Maker 12.0.7**
 
@@ -633,7 +583,7 @@ This is part of the technology/toolset documented for the application.
 
 ---
 
-# 📸 Documentation Screens / Demonstrated Functions
+# Documentation Screens / Demonstrated Functions
 
 The project documentation contains screenshots demonstrating the following areas.
 
@@ -688,11 +638,11 @@ The project documentation contains screenshots demonstrating the following areas
 
 ---
 
-# 🔐 Security and Privacy
+# Security and Privacy
 
 Because this application handles citizen and complaint-related information, security should be treated as an important part of deployment.
 
-The project documentation includes authentication, password recovery, privacy information and administrative access controls.
+It includes authentication, password recovery, privacy information and administrative access controls.
 
 For a production deployment, sensitive information should be protected and database credentials should never be exposed in a public repository.
 
@@ -713,9 +663,7 @@ These are deployment/security considerations; the supplied academic documentatio
 
 ---
 
-# 📱 User Experience
-
-The proposed system documentation identifies the following goals:
+# User Experience
 
 - User-friendly interface
 - Accuracy
@@ -725,7 +673,7 @@ The application separates citizen-facing functionality from police/admin functio
 
 ---
 
-# 🚀 Future Enhancements
+# Future Enhancements
 
 The supplied documentation does not provide a dedicated detailed future-enhancement list.
 
@@ -748,15 +696,11 @@ These are suggestions for future development and are **not presented as already 
 
 ---
 
-# 🏫 Organization Profile
-
-The project documentation identifies:
+# Organization Profile
 
 **L. J. College of Computer Application (LJCCA)**
 
 as the institution associated with the project.
-
-The documentation states that the institute was established in **1999** and describes its educational and overall-development objectives.
 
 Address documented in the project:
 
@@ -769,9 +713,9 @@ Ahmedabad – 380015
 
 ---
 
-# 🙏 Acknowledgement
+# Acknowledgement
 
-The project documentation acknowledges the contribution and guidance of:
+The acknowledges is the contribution and guidance of:
 
 **Prof. Vikas Gokhale**
 
@@ -779,7 +723,7 @@ and the faculty members of **L. J. College of Computer Applications** for their 
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Kenil Dhorajiya**
 
@@ -803,46 +747,18 @@ Affiliation:
 
 ---
 
-# 📚 Project Documentation
+# Project Documentation
 
-The original academic project documentation contains screenshots and descriptions of the system's administrative and citizen-facing interfaces.
+The original academic project documentation contains screenshots and descriptions of the system's administrative and citizen-facing interfaces which is in the Docs Folder.
 
 The documentation covers the project definition, existing/proposed systems, technology stack, administrative screens, investigation officer screens, citizen portal screens, public information, feedback, FAQ, terms and privacy sections.
 
 ---
 
-# ⚠️ Disclaimer
+# Disclaimer
 
 This repository documents an academic web application project titled **E-FIR System & Other Services**.
 
 The project documentation presents a system designed around citizen and police services. It should not be interpreted as an official Government of Gujarat or Gujarat Police production system unless separately authorized and deployed by the relevant authority.
 
 ---
-
-# ⭐ Project Summary
-
-**E-FIR System & Other Services** is a PHP/MySQL-based web application that combines an online citizen portal with a police/admin management portal.
-
-The system brings together:
-
-- E-FIR services
-- Police-side FIR management
-- Investigation assignment
-- E-Applications
-- Missing-person reporting
-- Senior-citizen registration
-- Citizen registration and authentication
-- Password recovery
-- News and announcements
-- Forms and certificates
-- Public information
-- Government-service information
-- Photo gallery
-- Absconder and lookout information
-- Contact and helpline information
-- Feedback
-- FAQ
-- Terms and Conditions
-- Privacy Policy
-
-The documented technology stack includes **HTML5, Bootstrap, CSS, JavaScript, PHP 8.1.6, MySQL 8.1.6, PHP Report Maker 12.0.7, XAMPP, Visual Studio Code and Google Chrome**.
