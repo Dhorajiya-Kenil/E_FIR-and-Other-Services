@@ -24,37 +24,6 @@ The project is designed to provide online citizen services and a police-side adm
 
 ---
 
-## Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Project Definition](#-project-definition)
-- [Existing System](#-existing-system)
-- [Proposed System](#-proposed-system)
-- [Objectives](#-objectives)
-- [Main Modules](#-main-modules)
-- [Police/Admin Portal](#-policeadmin-portal)
-- [Investigation Officer Portal](#-investigation-officer-portal)
-- [Citizen/User Portal](#-citizenuser-portal)
-- [E-FIR Services](#-e-fir-services)
-- [Other Citizen Services](#-other-citizen-services)
-- [Public Information](#-public-information)
-- [Authentication](#-authentication)
-- [Technology Stack](#-technology-stack)
-- [System Workflow](#-system-workflow)
-- [Project Structure](#-project-structure)
-- [Local Development](#-local-development)
-- [Database](#-database)
-- [Reporting](#-reporting)
-- [Documentation Screens / Demonstrated Functions](#-documentation-screens--demonstrated-functions)
-- [Security and Privacy](#-security-and-privacy)
-- [Terms and Conditions](#-terms-and-conditions)
-- [FAQ](#-faq)
-- [Future Enhancements](#-future-enhancements)
-- [Acknowledgement](#-acknowledgement)
-- [Author](#-author)
-
----
-
 ## Project Overview
 
 The **E-FIR System & Other Services** is a web-based application intended to help citizens and the police department interact through an online portal.
