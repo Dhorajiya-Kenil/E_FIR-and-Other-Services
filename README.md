@@ -724,6 +724,14 @@ The documentation covers the project definition, existing/proposed systems, tech
 
 ---
 
+## License
+
+This project is licensed under the terms specified in the [LICENSE](LICENSE) file included in this repository.
+
+Please read the `LICENSE` file for the complete license terms and conditions.
+
+---
+
 # Disclaimer
 
 This repository documents an academic web application project titled **E-FIR System & Other Services**.
